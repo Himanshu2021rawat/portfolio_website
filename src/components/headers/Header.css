@@ -5,6 +5,11 @@ header {
     overflow: hidden;
 }
 
+.quote{
+    color: rgb(221, 255, 0);
+    
+}
+
 .header__container{
     text-align: center;
     height: 100%;
@@ -82,6 +87,8 @@ header {
     height: 68vh;
 
 }
+
+
 
 }
 

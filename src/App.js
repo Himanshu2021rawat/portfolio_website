@@ -7,13 +7,15 @@ import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import  Contacts from "./components/contact/Contact"
+import Developer from "./components/ForDevelopers/Developer"
 import Fotter from "./components/fotter/Fotter"
+
 
 const App = () => {
   return (
     <>
     
-    <Header />
+    <Header title={"Himanshu Rawat"} />
     <Nav />
     <About />
     <Experience />
@@ -21,6 +23,7 @@ const App = () => {
     <Portfolio />
     <Testimonials />
     <Contacts />
+    <Developer/>
     <Fotter />
     
 </>
